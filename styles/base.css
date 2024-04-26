@@ -1,0 +1,86 @@
+:root
+{
+    --primary-color: #381d2a;
+    --secondary-color: #f39b6d;
+    --accent1-color: #aabd8c;
+    --accent2-color: #e9e3b4;
+    --accent3-color: #3e6990;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #f39b6d;
+    color: #e9e3b4;
+}
+header
+{
+    background-color: #381d2a;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 4rem;
+}
+h1
+{
+    font-size: 2rem;
+    color: #381d2a;
+    padding: 2rem;
+}
+.card
+{
+    border: 1px solid #381d2a;
+    background-color: #e9e3b4;
+    border-radius: 10px;
+    margin: 1rem;
+    overflow: hidden;
+}
+.card h2
+{
+    background-color: #3e6990;
+    color: #aabd8c;
+    text-align: center;
+    padding: 1rem 0;
+    display: block;
+}
+.card ul li
+{
+    padding: 2px;
+    color: #381d2a;
+    text-decoration: none;
+}
+.card a
+{
+    color: #381d2a;
+}
+nav
+{
+    background-color: #3e6990;
+    color: #aabd8c;
+}
+nav a
+{
+    padding: 1rem;
+    text-decoration: none;
+    color: #e9e3b4;
+
+}
+nav a:hover
+{
+    background-color: #aabd8c;
+    color: #381d2a;
+}
+.active
+{
+    color:#f39b6d;
+    text-decoration: underline;
+}
+footer
+{
+    color: #381d2a;
+}

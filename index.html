@@ -1,4 +1,59 @@
-<h1>Welcome to WDD230 Web Projects</h1>
-<nav>
-</nav>
-<p>Rachael Hollinger - WDD130</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachael Hollinger - WDD230 - Web Frontend Development</title>
+    <meta name="Description" content="This is WDD 230 - Web Frontend Development corse assignment portal as developed by Rachael Hollinger.">
+    <meta name="Author" content="Rachael Hollinger">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img class="profile" src="images/profile.jpg" alt="profile" width="150" height="200"><span>Rachael Hollinger</span>
+    </header>
+    <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="">Chamber</a>
+        <a href="">Site Plan</a>
+        <a href="">Form</a>
+    </nav>
+    <main>
+        <h1>
+            WDD 230: Web Frontend Development
+        </h1>
+            <section class="card">
+                <h2>
+                    Learning Activities
+                </h2>
+                <ul>
+                    <li>Week 01: <a href="">Layout</a> <a href="https://rdhollinger.github.io/wdd230/week01/media-query.html">Media Query</a> <a href="">JS Pen</a></li> 
+                    <li>Week 02</li>
+                    <li>Week 03</li>
+                    <li>Week 04</li>
+                    <li>Week 05</li>
+                    <li>Week 06</li>
+                </ul>
+            </section>
+        
+        <section class="card">
+            <h2>
+                Information
+            </h2>
+            <ul>
+                <li>Weather</li>
+                <li>Visits to page</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> Rachael Hollinger | Idaho, USA </p>
+        <p>Document was last modified on<span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/gerDates.js"></script>
+</body>
+</html>
