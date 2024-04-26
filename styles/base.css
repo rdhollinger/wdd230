@@ -21,10 +21,10 @@ body
 header
 {
     background-color: #381d2a;
-    display: flex;
+    display: block;
     justify-content: center;
     padding: 20px;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 h1
 {
@@ -68,6 +68,7 @@ nav a
     padding: 1rem;
     text-decoration: none;
     color: #e9e3b4;
+    font-size: 1rem;
 
 }
 nav a:hover
