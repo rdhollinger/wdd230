@@ -43,7 +43,7 @@ h1
 .card h2
 {
     background-color: #3e6990;
-    color: #aabd8c;
+    color: #ffff;
     text-align: center;
     padding: 1rem 0;
     display: block;
@@ -61,7 +61,6 @@ h1
 nav
 {
     background-color: #3e6990;
-    color: #aabd8c;
     margin: 0 auto;
     max-width: 800px;
     padding: 10px;
@@ -70,7 +69,7 @@ nav a
 {
     padding: 1rem;
     text-decoration: none;
-    color: #e9e3b4;
+    color: #fff;
     font-size: 1rem;
     display: block;
     text-align: center;
@@ -86,13 +85,15 @@ nav ul li
 }
 nav a:hover
 {
-    background-color: #aabd8c;
-    color: #381d2a;
+    background-color: #381d2a;
+    color: #aabd8c;
+    display: block;
 }
 .active
 {
-    color:#f39b6d;
-    text-decoration: underline;
+    background-color: #381d2a;
+    color:#fff;
+    text-decoration: block;
 }
 footer
 {
